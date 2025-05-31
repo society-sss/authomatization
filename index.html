@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .code-block {
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+            background-color: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            height: 300px;
+        }
+        .prompt-block {
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+            background-color: #f3f4f6;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            height: 300px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-8">Landing Page Generator</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- New Column -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4">New Landing Page</h2>
+                
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Site Name</label>
+                        <input type="text" id="site-name" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Site Theme</label>
+                        <input type="text" id="site-theme" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Color Palette</label>
+                        <input type="text" id="color-palette" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Subtitle</label>
+                        <input type="text" id="subtitle" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    </div>
+                    
+                    <button onclick="generateNewPrompt()" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
+                        Copy Prompt
+                    </button>
+                    
+                    <div class="prompt-block" id="new-prompt"></div>
+                </div>
+            </div>
+            
+            <!-- Old Column -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold mb-4">Transform Existing Page</h2>
+                
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Current Code</label>
+                        <textarea id="current-code" class="w-full px-3 py-2 border border-gray-300 rounded-md h-24"></textarea>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Reference Code</label>
+                        <textarea id="reference-code" class="w-full px-3 py-2 border border-gray-300 rounded-md h-24"></textarea>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Site Name</label>
+                        <input type="text" id="transform-site-name" class="w-full px-3 py-2 border border-gray-300 rounded-md">
+                    </div>
+                    
+                    <button onclick="generateTransformPrompt()" class="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition">
+                        Copy Prompt
+                    </button>
+                    
+                    <div class="prompt-block" id="transform-prompt"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

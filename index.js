@@ -42,6 +42,8 @@ async function generateNewPrompt() {
 
 ссылки на страницы Cookie Policy, Privacy Policy, Terms of Service, Legal Notice должны быть рабочими
 
+под фоткой книги обьязательно укажи это - This is a digital product (PDF). You will receive it by email immediately after filling out the form.
+
 🧠 Содержание и текст:
 Логика (форма, ссылки и структура данных) — оставить без изменений.
 

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy | OrangeRequest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                        opensans: ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#FF7F50',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-opensans bg-gray-50">
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center">
+                <a href="../../index.html" class="logo text-2xl font-bold">
+                    <span class="text-primary">Orange</span><span class="text-gray-800">Request</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 font-montserrat mb-2">Our Cookie Policy</h1>
+            <p class="text-gray-500 mb-8">Updated: November 2023</p>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">What Are Cookies?</h2>
+                <p class="text-gray-700">Cookies are small text files stored on your device by our website to enhance your user experience. They help us save your preferences and optimize the platform for your needs as a participant in our public speaking courses.</p>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">How OrangeRequest Uses Cookies</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Essential Cookies</h3>
+                        <p class="text-gray-700">Enable basic functions like login and course access</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Preference Cookies</h3>
+                        <p class="text-gray-700">Store your preferred course settings and learning progress</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Analytics Cookies</h3>
+                        <p class="text-gray-700">Collect anonymous data to improve our training offerings</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Performance Cookies</h3>
+                        <p class="text-gray-700">Optimize loading times for video content and practice materials</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">Types of Cookies by Duration</h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Session Cookies</h3>
+                        <p class="text-gray-700">Automatically deleted when you close your browser (e.g., for live webinars)</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Persistent Cookies</h3>
+                        <p class="text-gray-700">Remain stored for a set period (30-180 days) to maintain your settings</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Third-Party Cookies</h3>
+                        <p class="text-gray-700">Used by trusted partners like video platforms for our course content</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">Managing Cookie Settings</h2>
+                <p class="text-gray-700 mb-4">You can control or block cookies in your browser:</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Google Chrome</h3>
+                        <p class="text-gray-700">Settings → Privacy and security → Cookies and other site data</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Mozilla Firefox</h3>
+                        <p class="text-gray-700">Settings → Privacy & Security → Cookies and Site Data</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Safari</h3>
+                        <p class="text-gray-700">Preferences → Privacy → Manage Website Data</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Microsoft Edge</h3>
+                        <p class="text-gray-700">Settings → Cookies and site permissions → Manage and delete cookies</p>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded">
+                    <p class="text-blue-700 font-medium">Note: Disabling certain cookies may limit the functionality of our learning platform, particularly for interactive exercises and webinars.</p>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">Policy Updates</h2>
+                <p class="text-gray-700">We regularly review this Cookie Policy. Significant changes will be announced via email and through our platform.</p>
+            </section>
+            
+            <section class="bg-gray-50 p-6 rounded-lg">
+                <h2 class="text-xl font-bold text-gray-800 font-montserrat mb-2">Questions About Our Cookie Policy?</h2>
+                <p class="text-gray-700">Contact our privacy team at <span class="text-primary hover:underline">info@orangerequest.com</span></p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

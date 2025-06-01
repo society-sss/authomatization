@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions | OrangeRequest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        montserrat: ['Montserrat', 'sans-serif'],
+                        opensans: ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#FF7F50',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-opensans bg-gray-50">
+    <header class="bg-white shadow-sm py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex items-center">
+                <a href="../../index.html" class="logo text-2xl font-bold">
+                    <span class="text-primary">Orange</span><span class="text-gray-800">Request</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 font-montserrat mb-2">Terms and Conditions</h1>
+            <p class="text-gray-500 mb-8">Effective from: December 1, 2023</p>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">1. Contractual Relationship</h2>
+                <p class="text-gray-700 mb-4">These terms and conditions govern the use of the OrangeRequest online platform ("Service Provider") by participants ("Customers") for rhetoric and public speaking training.</p>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">2. Registration and Access</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.1 Course Descriptions</h3>
+                    <p class="text-gray-700">All course descriptions on our platform represent non-binding offers. We reserve the right to adjust course content before contract conclusion.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">2.2 Registration Process</h3>
+                    <p class="text-gray-700">Registration for our courses is completed by filling out the online form and represents a binding offer by the customer. OrangeRequest reserves the right to confirm or reject the registration within 72 hours.</p>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">3. Payment Terms</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">3.1 Prices and Fees</h3>
+                    <p class="text-gray-700">All prices include applicable taxes. OrangeRequest reserves the right to adjust prices for future course sessions.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">3.2 Payment Methods</h3>
+                    <p class="text-gray-700 mb-2">We accept the following payment methods:</p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>Credit card payments (Visa, Mastercard)</li>
+                        <li>PayPal</li>
+                        <li>Bank transfers</li>
+                        <li>Instant payments</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">4. Service Scope</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.1 Course Offerings</h3>
+                    <p class="text-gray-700 mb-2">Our training program includes:</p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>Fundamentals of rhetoric and presentation techniques</li>
+                        <li>Online live seminars with experienced trainers</li>
+                        <li>Personal feedback on video submissions</li>
+                        <li>Access to exclusive learning materials</li>
+                        <li>Group exercises and discussion forums</li>
+                    </ul>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">4.2 Access Credentials</h3>
+                    <p class="text-gray-700">After successful registration and payment, you will receive your login credentials for our learning platform via email within one business day. The customer is obliged to keep this information confidential.</p>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">5. Cancellation Rights</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">5.1 Cancellation Period</h3>
+                    <p class="text-gray-700">Customers have a 14-day cancellation right from contract conclusion, provided the course hasn't started within this period.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">5.2 Termination of Ongoing Courses</h3>
+                    <p class="text-gray-700">Ongoing course subscriptions may be cancelled with 14 days' notice before the end of the month. Already paid fees will not be refunded.</p>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">6. Liability</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.1 Service Provider Liability</h3>
+                    <p class="text-gray-700 mb-2">OrangeRequest is liable for:</p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>The professional qualifications of our trainers</li>
+                        <li>Provision of agreed course content</li>
+                        <li>Availability of the technical platform</li>
+                    </ul>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">6.2 Customer Obligations</h3>
+                    <p class="text-gray-700 mb-2">The customer agrees to:</p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>Active participation in courses</li>
+                        <li>Respectful interaction with trainers and other participants</li>
+                        <li>Compliance with netiquette in discussion forums</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">7. Intellectual Property</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.1 Usage Rights</h3>
+                    <p class="text-gray-700">OrangeRequest grants a non-exclusive, non-transferable right to use provided course materials for personal training purposes.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">7.2 Prohibited Use</h3>
+                    <p class="text-gray-700 mb-2">Specifically prohibited is:</p>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>Sharing course materials with third parties</li>
+                        <li>Commercial use of our training methods</li>
+                        <li>Recording live sessions without permission</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">8. Data Protection</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">8.1 Privacy Policy</h3>
+                    <p class="text-gray-700">Collection and processing of personal data is conducted according to our Privacy Policy and applicable data protection laws.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">8.2 Changes to Terms</h3>
+                    <p class="text-gray-700">Changes to these terms will be communicated to customers at least 30 days before taking effect. If the customer doesn't object within 14 days, the modified terms are considered accepted.</p>
+                </div>
+            </section>
+            
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-gray-800 font-montserrat mb-4">9. Final Provisions</h2>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">9.1 Severability Clause</h3>
+                    <p class="text-gray-700">If any provision of these terms is invalid, the validity of the remaining provisions remains unaffected.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">9.2 Force Majeure</h3>
+                    <p class="text-gray-700">OrangeRequest is not liable for disruptions caused by force majeure or other unforeseeable and unavoidable circumstances.</p>
+                </div>
+            </section>
+            
+            <div class="bg-gray-50 p-6 rounded-lg">
+                <h3 class="text-lg font-bold text-gray-800 font-montserrat mb-2">Questions about our Terms?</h3>
+                <p class="text-gray-700">Contact our team at <span class="text-primary hover:underline">info@orangerequest.com</span></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

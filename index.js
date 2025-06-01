@@ -63,11 +63,25 @@ async function generateNewPrompt() {
     document.getElementById('new-prompt').textContent = prompt;
     copyToClipboard(prompt);
 }
-        
-function generateTransformPrompt() {
-    const currentCode = document.getElementById('current-code').value;
+
+async function generateTransformPrompt() {
+    const selectedFile = document.querySelector('input[name="file-selection"]:checked');
     const referenceCode = document.getElementById('reference-code').value;
     const siteName = document.getElementById('transform-site-name').value;
+
+    let currentCode = '';
+
+    if (selectedFile) {
+        try {
+            const response = await fetch(`${selectedFile.value}.txt`);
+            if (!response.ok) throw new Error(`File ${selectedFile.value}.txt not found`);
+            const content = await response.text();
+            currentCode = `\n\n=== ${selectedFile.value.toUpperCase()} ===\n\n${content}`;
+        } catch (error) {
+            console.error(`Error loading ${selectedFile.value}.txt:`, error);
+            currentCode = `\n\n=== ${selectedFile.value.toUpperCase()} ===\n\n<!-- Could not load ${selectedFile.value}.txt -->`;
+        }
+    }
     
     const prompt = `${currentCode}
 

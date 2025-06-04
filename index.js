@@ -40,6 +40,8 @@ async function generateNewPrompt() {
 
 не добавляй ссылки на социальные сети
 
+не упоминай на странице что либо связанное с названием дизайна
+
 ссылки на страницы Cookie Policy, Privacy Policy, Terms of Service, Legal Notice должны быть рабочими
 
 под фоткой книги обьязательно укажи это - This is a digital product (PDF). You will receive it by email immediately after filling out the form.

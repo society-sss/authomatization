@@ -69,6 +69,8 @@ Cookie Banner
 
 Сделай сайт лёгким и быстрым, избегай тяжёлых изображений.
 
+Для стилей используй tailwindcss
+
 Все названия классов и структура кода должны быть чистыми и понятными.`;
     document.getElementById('new-prompt').textContent = prompt;
     copyToClipboard(prompt);

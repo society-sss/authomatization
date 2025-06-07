@@ -53,7 +53,7 @@ Cookie Banner
 
 не упоминай на странице что либо связанное с названием дизайна
 
-ссылки на страницы Cookie Policy, Privacy Policy, Terms of Service, Legal Notice должны быть рабочими
+ссылки на страницы Cookie Policy (./pages/cookies/cookies.html), Privacy Policy (./pages/privacy-policy/privacy-policy.html), Terms of Service (./pages/terms/terms.html), Legal Notice (./pages/imprint/imprint.html) должны быть рабочими
 
 под фоткой книги обьязательно укажи это - This is a digital product (PDF). You will receive it by email immediately after filling out the form.
 

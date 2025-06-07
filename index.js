@@ -29,7 +29,7 @@ async function generateNewPrompt() {
 
 Header
 
-Hero Section
+Hero Section (ссылка на картинку ./uploads/photo.jpg)
 
 Learning Phases
 

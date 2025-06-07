@@ -30,135 +30,134 @@
         }
     </style>
 </head>
-<body class="font-sans bg-gray-50">
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center">
-                <span class="text-2xl font-bold text-primary">Orange<span class="text-secondary">Finance</span></span>
+<body>
+    <header>
+        <div>
+            <div>
+                <span>Orange<span>Finance</span></span>
             </div>
-            <nav class="hidden md:flex space-x-8">
-                <a href="#learning-phases" class="text-secondary hover:text-primary font-medium">Learning Modules</a>
-                <a href="#testimonials" class="text-secondary hover:text-primary font-medium">Success Stories</a>
-                <a href="#faq" class="text-secondary hover:text-primary font-medium">FAQ</a>
-                <a href="#contact" class="text-secondary hover:text-primary font-medium">Contact</a>
+            <nav>
+                <a href="#learning-phases">Learning Modules</a>
+                <a href="#testimonials">Success Stories</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
             </nav>
-            <button class="md:hidden text-gray-600" id="menu-toggle">
-                <i class="fas fa-bars text-2xl"></i>
+            <button id="menu-toggle">
+                <i></i>
             </button>
         </div>
-        <div class="md:hidden hidden bg-white py-2 px-4 shadow-lg" id="mobile-menu">
-            <a href="#learning-phases" class="block py-2 text-secondary hover:text-primary">Learning Modules</a>
-            <a href="#testimonials" class="block py-2 text-secondary hover:text-primary">Success Stories</a>
-            <a href="#faq" class="block py-2 text-secondary hover:text-primary">FAQ</a>
-            <a href="#contact" class="block py-2 text-secondary hover:text-primary">Contact</a>
+        <div>
+            <a href="#learning-phases">Learning Modules</a>
+            <a href="#testimonials">Success Stories</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
         </div>
     </header>
 
-<section class="bg-gradient-to-r from-primary to-accent text-white py-12 md:py-20 relative overflow-hidden">
-    <div class="container mx-auto px-4">
-        <div class="flex flex-col lg:flex-row items-center">
-            <div class="lg:w-1/2 text-center lg:text-left mb-10 lg:mb-0 z-10">
-                <h1 class="text-4xl md:text-5xl font-bold mb-6 fade-in">Your Path to Financial Freedom</h1>
-                <p class="text-xl mb-8 max-w-2xl mx-auto lg:mx-0 fade-in">Master your money with our comprehensive financial literacy program</p>
+<section>
+    <div>
+        <div>
+            <div>
+                <h1>Your Path to Financial Freedom</h1>
+                <p>Master your money with our comprehensive financial literacy program</p>
                 
-                <button class="bg-white text-primary font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 fade-in">
+                <button>
                     <a href="#form">Get it for free</a>
                 </button>
             </div>
             
-            <div class="lg:w-1/2 flex flex-col items-center z-10">
-                <div class="relative max-w-md mb-3">
+            <div>
+                <div>
                     <img src="./uploads/photo.jpg" 
                         alt="Financial Freedom Guide" 
-                        class="rounded-lg shadow-2xl w-full h-auto transform rotate-2 hover:rotate-0 transition-transform duration-300"
                         loading="lazy">
                 </div>
-                <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-full px-6 py-2 text-sm font-medium shadow-sm">
-                    <i class="fas fa-file-pdf mr-2"></i> This is a digital product (PDF). You will receive it by email immediately after filling out the form.
+                <div>
+                    <i></i> This is a digital product (PDF). You will receive it by email immediately after filling out the form.
                 </div>
             </div>
         </div>
     </div>
     
-    <div class="absolute top-0 right-0 w-32 h-32 bg-white bg-opacity-10 rounded-full -mr-16 -mt-16"></div>
-    <div class="absolute bottom-0 left-0 w-64 h-64 bg-white bg-opacity-5 rounded-full -ml-32 -mb-32"></div>
+    <div></div>
+    <div></div>
 </section>
 
-    <section id="learning-phases" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-secondary mb-12">Your Financial Education Journey</h2>
+    <section id="learning-phases">
+        <div>
+            <h2>Your Financial Education Journey</h2>
             
-            <div class="flex flex-col md:flex-row justify-between items-stretch space-y-8 md:space-y-0 md:space-x-8">
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md flex-1 hover:shadow-lg transition duration-300">
-                    <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mb-4">1</div>
-                    <h3 class="text-xl font-bold text-secondary mb-3">Simple Steps for Personal Budgeting</h3>
-                    <p class="text-gray-600">Learn easy-to-follow methods to create and maintain your personal budget. Discover how to track expenses, set financial goals, and make your money work for you with our straightforward budgeting framework.</p>
+            <div>
+                <div>
+                    <div>1</div>
+                    <h3>Simple Steps for Personal Budgeting</h3>
+                    <p>Learn easy-to-follow methods to create and maintain your personal budget. Discover how to track expenses, set financial goals, and make your money work for you with our straightforward budgeting framework.</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md flex-1 hover:shadow-lg transition duration-300">
-                    <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mb-4">2</div>
-                    <h3 class="text-xl font-bold text-secondary mb-3">Practical Wealth-Building Strategies</h3>
-                    <p class="text-gray-600">Get actionable advice for growing your savings effectively. We'll show you proven techniques for accumulating capital, from smart saving habits to understanding compounding growth.</p>
+                <div>
+                    <div>2</div>
+                    <h3>Practical Wealth-Building Strategies</h3>
+                    <p>Get actionable advice for growing your savings effectively. We'll show you proven techniques for accumulating capital, from smart saving habits to understanding compounding growth.</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md flex-1 hover:shadow-lg transition duration-300">
-                    <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mb-4">3</div>
-                    <h3 class="text-xl font-bold text-secondary mb-3">Financial Literacy Fundamentals</h3>
-                    <p class="text-gray-600">Master the essential money management skills everyone should know. Perfect for beginners, this covers banking basics, debt management, and financial planning principles in simple terms.</p>
+                <div>
+                    <div>3</div>
+                    <h3>Financial Literacy Fundamentals</h3>
+                    <p>Master the essential money management skills everyone should know. Perfect for beginners, this covers banking basics, debt management, and financial planning principles in simple terms.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center text-secondary mb-12">Why This Guide Is Right For You</h2>
+    <section>
+    <div>
+        <h2>Why This Guide Is Right For You</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                <div class="flex items-start mb-4">
-                    <div class="bg-primary text-white p-2 rounded-full mr-4">
-                        <i class="fas fa-check"></i>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <i></i>
                     </div>
                     <div>
-                        <h3 class="text-xl font-bold text-secondary mb-2">Practical Money Management</h3>
-                        <p class="text-gray-600">Learn actionable budgeting techniques and saving strategies that you can implement immediately to improve your financial situation.</p>
+                        <h3>Practical Money Management</h3>
+                        <p>Learn actionable budgeting techniques and saving strategies that you can implement immediately to improve your financial situation.</p>
                     </div>
                 </div>
             </div>
             
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                <div class="flex items-start mb-4">
-                    <div class="bg-primary text-white p-2 rounded-full mr-4">
-                        <i class="fas fa-check"></i>
+            <div>
+                <div>
+                    <div>
+                        <i></i>
                     </div>
                     <div>
-                        <h3 class="text-xl font-bold text-secondary mb-2">Beginner-Friendly Approach</h3>
-                        <p class="text-gray-600">Written in clear, simple language with no financial jargon. Perfect for those just starting their financial education journey.</p>
+                        <h3>Beginner-Friendly Approach</h3>
+                        <p>Written in clear, simple language with no financial jargon. Perfect for those just starting their financial education journey.</p>
                     </div>
                 </div>
             </div>
             
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                <div class="flex items-start mb-4">
-                    <div class="bg-primary text-white p-2 rounded-full mr-4">
-                        <i class="fas fa-check"></i>
+            <div>
+                <div>
+                    <div>
+                        <i></i>
                     </div>
                     <div>
-                        <h3 class="text-xl font-bold text-secondary mb-2">Comprehensive Financial Education</h3>
-                        <p class="text-gray-600">Covers all essential personal finance topics from basic budgeting to understanding credit and simple investment principles.</p>
+                        <h3>Comprehensive Financial Education</h3>
+                        <p>Covers all essential personal finance topics from basic budgeting to understanding credit and simple investment principles.</p>
                     </div>
                 </div>
             </div>
             
-            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                <div class="flex items-start mb-4">
-                    <div class="bg-primary text-white p-2 rounded-full mr-4">
-                        <i class="fas fa-check"></i>
+            <div>
+                <div>
+                    <div>
+                        <i></i>
                     </div>
                     <div>
-                        <h3 class="text-xl font-bold text-secondary mb-2">Free Educational Resource</h3>
-                        <p class="text-gray-600">Get valuable financial knowledge at no cost. We believe financial education should be accessible to everyone.</p>
+                        <h3>Free Educational Resource</h3>
+                        <p>Get valuable financial knowledge at no cost. We believe financial education should be accessible to everyone.</p>
                     </div>
                 </div>
             </div>
@@ -166,139 +165,139 @@
     </div>
 </section>
 
-    <section id="testimonials" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-secondary mb-12">Success Stories</h2>
+    <section id="testimonials">
+        <div>
+            <h2>Success Stories</h2>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
                 <!-- Testimonial 1 -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-4">AK</div>
+                <div>
+                    <div>
+                        <div>AK</div>
                         <div>
-                            <h4 class="font-bold text-secondary">Anna K.</h4>
-                            <div class="flex text-yellow-400">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h4>Anna K.</h4>
+                            <div>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
                             </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 italic">"This program helped me pay off $15,000 in credit card debt and start investing for the first time!"</p>
+                    <p>"This program helped me pay off $15,000 in credit card debt and start investing for the first time!"</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-4">TM</div>
+                <div>
+                    <div>
+                        <div>TM</div>
                         <div>
-                            <h4 class="font-bold text-secondary">Thomas M.</h4>
-                            <div class="flex text-yellow-400">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                            <h4>Thomas M.</h4>
+                            <div>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
                             </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 italic">"The practical budgeting tools and investment education completely transformed my financial situation."</p>
+                    <p>"The practical budgeting tools and investment education completely transformed my financial situation."</p>
                 </div>
                 
-                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-4">SL</div>
+                <div>
+                    <div>
+                        <div>SL</div>
                         <div>
-                            <h4 class="font-bold text-secondary">Sarah L.</h4>
-                            <div class="flex text-yellow-400">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
+                            <h4>Sarah L.</h4>
+                            <div>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
                             </div>
                         </div>
                     </div>
-                    <p class="text-gray-600 italic">"I went from living paycheck to paycheck to having a 6-month emergency fund and growing investments."</p>
+                    <p>"I went from living paycheck to paycheck to having a 6-month emergency fund and growing investments."</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 bg-primary text-white" id="form">
-        <div class="container mx-auto px-4 max-w-2xl">
-            <h2 class="text-3xl font-bold text-center mb-6">Start Your Financial Journey Today!</h2>
-            <p class="text-center mb-8">Register for free financial tips and get our beginner's money management guide.</p>
+    <section id="form">
+        <div>
+            <h2>Start Your Financial Journey Today!</h2>
+            <p>Register for free financial tips and get our beginner's money management guide.</p>
             
-            <form class="bg-white text-gray-800 p-6 rounded-lg shadow-lg" id="form">
-                <div class="mb-4">
-                    <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
-                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary">
+            <form id="form">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
                 </div>
                 
-                <div class="mb-4">
-                    <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
-                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
                 </div>
                 
-                <div class="mb-6">
-                    <div class="flex items-start">
-                        <div class="flex items-center h-5">
-                            <input id="privacy" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary">
+                <div>
+                    <div>
+                        <div>
+                            <input id="privacy" type="checkbox">
                         </div>
-                        <label for="privacy" class="ms-2 text-sm text-gray-700">I agree to the <a href="#" class="text-primary hover:underline">Privacy Policy</a></label>
+                        <label for="privacy">I agree to the <a href="#">Privacy Policy</a></label>
                     </div>
                 </div>
                 
-                <button type="submit" class="w-full bg-primary text-white font-bold py-3 px-4 rounded hover:bg-orange-600 transition duration-300 border-2 border-white">
+                <button type="submit">
                     Get it for free
                 </button>
             </form>
         </div>
     </section>
 
-    <section id="faq" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 max-w-3xl">
-            <h2 class="text-3xl font-bold text-center text-secondary mb-12">Frequently Asked Questions</h2>
+    <section id="faq">
+        <div>
+            <h2>Frequently Asked Questions</h2>
             
-            <div class="space-y-4">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <button class="flex justify-between items-center w-full text-left font-bold text-secondary" onclick="toggleFAQ(1)">
+            <div>
+                <div>
+                    <button onclick="toggleFAQ(1)">
                         <span>Who is this financial guide for?</span>
-                        <i class="fas fa-chevron-down transition-transform duration-300" id="faq-icon-1"></i>
+                        <i id="faq-icon-1"></i>
                     </button>
-                    <div class="mt-3 text-gray-600 hidden" id="faq-answer-1">
+                    <div id="faq-answer-1">
                         This guide is designed for anyone looking to improve their financial literacy, from complete beginners to those with some money management experience. Whether you're struggling with debt, want to start investing, or simply need help creating a budget, you'll find valuable information and practical tools.
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <button class="flex justify-between items-center w-full text-left font-bold text-secondary" onclick="toggleFAQ(2)">
+                <div>
+                    <button onclick="toggleFAQ(2)">
                         <span>Do I need financial knowledge to start?</span>
-                        <i class="fas fa-chevron-down transition-transform duration-300" id="faq-icon-2"></i>
+                        <i id="faq-icon-2"></i>
                     </button>
-                    <div class="mt-3 text-gray-600 hidden" id="faq-answer-2">
+                    <div id="faq-answer-2">
                         No previous financial knowledge is required. The guide starts with fundamental concepts like budgeting and saving, then gradually progresses to more advanced topics like investing and retirement planning. Each section includes clear explanations and step-by-step guidance suitable for all levels.
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <button class="flex justify-between items-center w-full text-left font-bold text-secondary" onclick="toggleFAQ(3)">
+                <div>
+                    <button onclick="toggleFAQ(3)">
                         <span>How do I get the financial guide?</span>
-                        <i class="fas fa-chevron-down transition-transform duration-300" id="faq-icon-3"></i>
+                        <i id="faq-icon-3"></i>
                     </button>
-                    <div class="mt-3 text-gray-600 hidden" id="faq-answer-3">
+                    <div id="faq-answer-3">
                         You can get the guide by filling out the form with your name and email and clicking on "Get the Guide" button. The digital version will be sent to your email immediately.
                     </div>
                 </div>
                 
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <button class="flex justify-between items-center w-full text-left font-bold text-secondary" onclick="toggleFAQ(4)">
+                <div>
+                    <button onclick="toggleFAQ(4)">
                         <span>What if I don't receive my guide?</span>
-                        <i class="fas fa-chevron-down transition-transform duration-300" id="faq-icon-4"></i>
+                        <i id="faq-icon-4"></i>
                     </button>
-                    <div class="mt-3 text-gray-600 hidden" id="faq-answer-4">
+                    <div id="faq-answer-4">
                         If you don't receive your guide within 24 hours, please check your spam folder. For any delivery issues, contact our customer support at support@orangefinance.com with your details - we'll promptly resend your guide.
                     </div>
                 </div>
@@ -306,29 +305,29 @@
         </div>
     </section>
 
-    <section id="contact" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-secondary mb-12">Contact Us</h2>
+    <section id="contact">
+        <div>
+            <h2>Contact Us</h2>
             
-            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
                 <div>
-                    <h3 class="text-xl font-bold text-secondary mb-4">Contact Information</h3>
-                    <p class="text-gray-600 mb-6">Have financial questions? We're happy to help!</p>
+                    <h3>Contact Information</h3>
+                    <p>Have financial questions? We're happy to help!</p>
                     
-                    <div class="space-y-4">
-                        <div class="flex items-start">
-                            <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                    <div>
+                        <div>
+                            <i></i>
                             <span>info@orangefinance.com</span>
                         </div>
                     </div>
                     
-                    <div class="mt-8">
-                        <h4 class="font-bold text-secondary mb-3">Legal Information</h4>
-                        <div class="flex flex-wrap gap-4">
-                            <a href="./pages/cookies/cookies.html" class="text-primary hover:underline">Cookie Policy</a>
-                            <a href="./pages/privacy-policy/privacy-policy.html" class="text-primary hover:underline">Privacy Policy</a>
-                            <a href="./pages/terms/terms.html" class="text-primary hover:underline">Terms of Service</a>
-                            <a href="./pages/imprint/imprint.html" class="text-primary hover:underline">Legal Notice</a>
+                    <div>
+                        <h4>Legal Information</h4>
+                        <div>
+                            <a href="./pages/cookies/cookies.html">Cookie Policy</a>
+                            <a href="./pages/privacy-policy/privacy-policy.html">Privacy Policy</a>
+                            <a href="./pages/terms/terms.html">Terms of Service</a>
+                            <a href="./pages/imprint/imprint.html">Legal Notice</a>
                         </div>
                     </div>
                 </div>
@@ -336,32 +335,32 @@
         </div>
     </section>
 
-    <footer class="bg-secondary text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-4 md:mb-0">
-                    <span class="text-2xl font-bold text-primary">Orange<span class="text-white">Finance</span></span>
-                    <p class="text-gray-300 mt-2">Your Path to Financial Freedom</p>
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <span>Orange<span>Finance</span></span>
+                    <p>Your Path to Financial Freedom</p>
                 </div>
             </div>
             
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+            <div>
                 <p>&copy; 2023 OrangeFinance. All rights reserved.</p>
-                <p class="mt-2">Disclaimer: This is educational content only, not financial advice. Consult a qualified professional for personal advice.</p>
+                <p>Disclaimer: This is educational content only, not financial advice. Consult a qualified professional for personal advice.</p>
             </div>
         </div>
     </footer>
 
-    <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 shadow-lg z-50 hidden">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-            <div class="mb-4 md:mb-0 md:mr-8">
+    <div id="cookie-banner">
+        <div>
+            <div>
                 <p>We use <a href="./pages/cookies/cookies.html">cookies</a> to provide you with the best experience on our website. By using our site, you agree to our <a href="./pages/cookies/cookies.html" class="text-primary hover:underline">Cookie Policy</a>.</p>
             </div>
-            <div class="flex space-x-4">
-                <button id="accept-cookies" class="bg-primary text-white px-4 py-2 rounded hover:bg-orange-600 transition duration-300">
+            <div>
+                <button id="accept-cookies">
                     Accept
                 </button>
-                <button id="reject-cookies" class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600 transition duration-300">
+                <button id="reject-cookies">
                     Decline
                 </button>
             </div>
@@ -450,3 +449,4 @@
     </script>
 </body>
 </html>
+       

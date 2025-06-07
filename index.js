@@ -29,7 +29,7 @@ async function generateNewPrompt() {
 
 Header
 
-Hero Section (ссылка на картинку ./uploads/photo.jpg)
+Hero Section (для фотографии в секции героя потсавь эту ссылку ./uploads/photo.jpg)
 
 Learning Phases
 
@@ -41,7 +41,7 @@ Form Section
 
 FAQ 
 
-Contact 
+Contact (не добавляй Send Us a Message)
 
 Footer 
 

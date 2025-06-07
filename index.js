@@ -45,7 +45,7 @@ Contact (не добавляй Send Us a Message)
 
 Footer 
 
-Cookie Banner
+Cookie Banner (в тексте где есть слово cookie она должна быть ссылкой которая отправляет пользователя сюда ./pages/cookies/cookies.html)
 
 также в контактах укажи рандомный канадский номер но про страну ничего оне указывай
 

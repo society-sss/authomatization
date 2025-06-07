@@ -1,7 +1,7 @@
 async function generateNewPrompt() {
     const siteName = document.getElementById('site-name').value;
     const siteTheme = document.getElementById('site-theme').value;
-    // const colorPalette = document.getElementById('color-palette').value;
+    const structures = document.getElementById('structures').value;
     const subtitle = document.getElementById('subtitle').value;
 
     // Загружаем содержимое html.txt
@@ -20,6 +20,8 @@ async function generateNewPrompt() {
 
 🎨 Требования к стилю и дизайну:
 Тематика: ${siteTheme}
+
+Стиль структуры: ${structures}
 
 Добавь современные UX-элементы: автоскролл-секции, анимации, микроинтеракции и т.д.
 

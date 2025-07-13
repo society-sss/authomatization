@@ -10,6 +10,8 @@ async function generateNewPrompt() {
         country = 'американский'
     } else if (selectedLang.value === 'турецкий') {
         country = 'турецкий'
+    } else if (selectedLang.value === 'испанский') {
+        country = 'испанский'
     }
 
     // Загружаем содержимое html.txt
